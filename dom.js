@@ -5,9 +5,9 @@ const calculateAdd = () => {
   document.getElementById("resultAdd").value = result; //dom
 };
 
-const calculateEv = () => {
-  let number1 = document.getElementById("number1ev").value;//dom
-  let number2 = document.getElementById("number2ev").value;//dom
+const calculateRd = () => {
+  let number1 = document.getElementById("number1rd").value;//dom
+  let number2 = document.getElementById("number2rd").value;//dom
   let result = Number(number1) - Number(number2);
-  document.getElementById("resultEv").value = result;//dom
+  document.getElementById("resultRd").value = result;//dom
 };

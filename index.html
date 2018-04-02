@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+</head>
+
+<body>
+  <section>
     <section>
-      <div id = addition>
+      <div id=a ddition>
         <h1>Addition</h1>
-        <input id = "number1" type = "number" value> +
-        <input id = "number2" type = "number" value>
+        <input id="number1" type="number" value> +
+        <input id="number2" type="number" value>
         <button type="button" name="submit" onclick="calculateAdd()">=</input>
+      </div>
+      <div>
         <input id = "resultAdd" type = "number" value>
       </div>
-      <div id = evaluation>
-        <h1>Evaluation</h1>
-        <input id = "number1ev" type = "number" value> -
-        <input id = "number2ev" type = "number" value> =
-        <button type="button" name="submit" onclick="calculateEv()">=</input>
-        <input id = "resultEv" type = "number" value>
-      </div>
-      <div
+    </section>
+      <section>
+        <div id = Reduction>
+          <h1>Reduction</h1>
+          <input id = "number1rd" type = "number" value> -
+          <input id = "number2rd" type = "number" value>
+          <button type="button" name="submit" onclick="calculateRd()">=</input>
+        </div>
+        <div>
+          <input id = "resultRd" type = "number" value>
+        </div>
+      </section>
     </section>
     <script src = "./dom.js" charset="utf-8">
     </script>
